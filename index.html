@@ -1,1 +1,39 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inactive Zone Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .inactive-button {
+            background-color: gray;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: not-allowed;
+            opacity: 0.6;
+            transition: background-color 0.3s ease, opacity 0.3s ease;
+        }
+
+        .inactive-button:hover {
+            background-color: darkgray;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Inactive Zone Button Example</h2>
+    <button class="inactive-button" disabled>Inactive Button</button>
+
+</body>
+</html>
